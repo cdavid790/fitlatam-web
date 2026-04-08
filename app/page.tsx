@@ -307,7 +307,7 @@ export default function FitLatamLanding() {
           <div className="hero-content">
             <div className="hero-tag">{t('🌎 Para toda Latinoamérica', '🌎 For all Latin America')}</div>
             <h1 className="display">
-              <span className="display-primary" dangerouslySetInnerHTML={{ __html: t('Entrena.<br>Nutre.<br>', 'Train.<br>Nourish.<br>') }} />
+              <span className="display-primary" dangerouslySetInnerHTML={{ __html: t('Ejercítate.<br>Aliméntate.<br>', 'Transformate.<br>Nourish.<br>') }} />
               <span className="display-secondary">{t('Transforma.', 'Transform.')}</span>
             </h1>
             <p className="hero-desc">
