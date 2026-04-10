@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title:'FitLatam — Entrena. Nutre. Transforma.',
+  title:'FitLatam — Ejercítate. Aliméntate. Transformate',
   description: 'Planes de entrenamiento y nutrición personalizados para toda Latinoamérica.',
 };
 
