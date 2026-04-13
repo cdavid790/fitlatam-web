@@ -633,7 +633,7 @@ export default function FitLatamLanding() {
               <h4>{t('Soporte', 'Support')}</h4>
               <a href="mailto:soporte@fitlatam.app">soporte@fitlatam.app</a>
               <a href="#">{t('Preguntas frecuentes', 'FAQ')}</a>
-              <a href="#">{t('Política de privacidad', 'Privacy policy')}</a>
+              <a href="/privacy">{t('Política de privacidad', 'Privacy policy')}</a>
               <a href="#">{t('Términos y condiciones', 'Terms & conditions')}</a>
             </div>
             <div className="footer-col">
