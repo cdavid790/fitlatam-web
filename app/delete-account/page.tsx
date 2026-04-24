@@ -127,7 +127,7 @@ export default function DeleteAccount() {
               Recibirás un correo de confirmación cuando el proceso esté completado.
               <br/><br/>
               Si tienes preguntas, escríbenos a{' '}
-              <a href="mailto:privacidad@fitlatam.app" style={{color:'var(--primary)'}}>privacidad@fitlatam.app</a>
+              <a href="mailto:privacidad@fitlatam.lat" style={{color:'var(--primary)'}}>privacidad@fitlatam.lat</a>
             </p>
           </div>
         )}

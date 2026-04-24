@@ -151,7 +151,7 @@ export default function Referencias() {
           </p>
         </div>
 
-        <p className="updated">Última actualización: Abril 2026 · <a href="mailto:soporte@fitlatam.app" style={{color:'var(--primary)'}}>soporte@fitlatam.app</a></p>
+        <p className="updated">Última actualización: Abril 2026 · <a href="mailto:soporte@fitlatam.lat" style={{color:'var(--primary)'}}>soporte@fitlatam.lat</a></p>
       </div>
     </>
   );

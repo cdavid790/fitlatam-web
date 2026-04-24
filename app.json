@@ -1,0 +1,15 @@
+{
+  "expo": {
+    "extra": {
+      "eas": {
+        "projectId": "7e4df956-0643-4dbf-acb5-6e43c4253a35"
+      }
+    },
+    "ios": {
+      "bundleIdentifier": "com.cdavid790.fitlatamweb",
+      "infoPlist": {
+        "ITSAppUsesNonExemptEncryption": false
+      }
+    }
+  }
+}

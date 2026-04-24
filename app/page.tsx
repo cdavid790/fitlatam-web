@@ -276,7 +276,7 @@ export default function FitLatamLanding() {
             <button className={`lang-btn${lang === 'es' ? ' active' : ''}`} onClick={() => setLang('es')}>ES</button>
             <button className={`lang-btn${lang === 'en' ? ' active' : ''}`} onClick={() => setLang('en')}>EN</button>
           </div>
-          <a href="#plans" className="nav-cta">{t('Comenzar ahora', 'Get started')}</a>
+          <a href="https://apps.apple.com/mx/app/fitlatam/id6762097150" target="_blank" rel="noopener noreferrer" className="nav-cta">{t("Descargar App", "Download App")}</a>
         </div>
         <button className="hamburger" onClick={() => setMenuOpen(m => !m)} aria-label="Menu">
           <span /><span /><span />
@@ -317,7 +317,7 @@ export default function FitLatamLanding() {
               )}
             </p>
             <div className="hero-btns">
-              <a href="#plans" className="btn-primary">📱 {t('Empezar gratis 3 días', 'Start free 3 days')}</a>
+              <a href="https://apps.apple.com/mx/app/fitlatam/id6762097150" target="_blank" rel="noopener noreferrer" className="btn-primary">📱 {t("Descargar ahora", "Download now")}</a>
               <a href="#how" className="btn-secondary">{t('Ver cómo funciona', 'See how it works')}</a>
             </div>
             <div className="hero-stats">
@@ -453,7 +453,7 @@ export default function FitLatamLanding() {
                 <div className="plan-feat">{t('Registro de sesiones, racha y calorías quemadas', 'Session tracking, streak and calories burned')}</div>
                 <div className="plan-feat">{t('Calendario de actividad + insights de progreso mensual', 'Activity calendar + monthly progress insights')}</div>
               </div>
-              <a href="#" className="plan-btn plan-btn-outline">{t('Comenzar con Starter', 'Start with Starter')}</a>
+              <a href="https://apps.apple.com/mx/app/fitlatam/id6762097150" target="_blank" rel="noopener noreferrer" className="plan-btn plan-btn-outline">{t("Comenzar con Starter", "Start with Starter")}</a>
             </div>
 
             {/* Pro — Featured */}
@@ -473,7 +473,7 @@ export default function FitLatamLanding() {
                 <div className="plan-feat">{t('120 ejercicios (fuerza + yoga + pilates + movilidad)', '120 exercises (strength + yoga + pilates + mobility)')}</div>
                 <div className="plan-feat">{t('🎵 Spotify + Apple Music integrados para cada sesión', '🎵 Spotify + Apple Music integrated for each session')}</div>
               </div>
-              <a href="#" className="plan-btn plan-btn-solid">{t('Comenzar con Pro', 'Start with Pro')}</a>
+              <a href="https://apps.apple.com/mx/app/fitlatam/id6762097150" target="_blank" rel="noopener noreferrer" className="plan-btn plan-btn-solid">{t("Comenzar con Pro", "Start with Pro")}</a>
             </div>
 
             {/* Elite */}
@@ -493,7 +493,7 @@ export default function FitLatamLanding() {
                 <div className="plan-feat">{t('💊 Protocolo de suplementación personalizado', '💊 Personalized supplementation protocol')}</div>
                 <div className="plan-feat">{t('📈 Checkpoint 30 días — plan se recalibra automáticamente', '📈 30-day checkpoint — plan recalibrates automatically')}</div>
               </div>
-              <a href="#" className="plan-btn plan-btn-outline">{t('Comenzar con Elite', 'Start with Elite')}</a>
+              <a href="https://apps.apple.com/mx/app/fitlatam/id6762097150" target="_blank" rel="noopener noreferrer" className="plan-btn plan-btn-outline">{t("Comenzar con Elite", "Start with Elite")}</a>
             </div>
 
           </div>
@@ -593,7 +593,7 @@ export default function FitLatamLanding() {
                 ))}
                 <div style={{ marginTop: 16, padding: 12, background: 'rgba(92,107,192,0.06)', borderRadius: 10, textAlign: 'center' }}>
                   <p style={{ fontSize: '0.8rem', color: 'var(--text-muted)' }}>{t('¿Listo para entrar al ranking?', 'Ready to enter the ranking?')}</p>
-                  <a href="#plans" className="btn-primary" style={{ marginTop: 8, display: 'inline-flex', fontSize: '0.8rem', padding: '8px 18px' }}>{t('Únete ahora', 'Join now')}</a>
+                  <a href="https://apps.apple.com/mx/app/fitlatam/id6762097150" target="_blank" rel="noopener noreferrer" className="btn-primary" style={{ marginTop: 8, display: "inline-flex", fontSize: "0.8rem", padding: "8px 18px" }}>{t("Descargar", "Download")}</a>
                 </div>
               </div>
             </div>
@@ -607,8 +607,8 @@ export default function FitLatamLanding() {
           <h2>{t('Tu transformación empieza hoy — gratis', 'Your transformation starts today — free')}</h2>
           <p>{t('3 días de prueba gratuita con el Plan Pro completo. Sin tarjeta de crédito.', '3-day free trial with the complete Pro Plan. No credit card required.')}</p>
           <div className="cta-btns">
-            <a href="#" className="btn-white">📱 App Store</a>
-            <a href="#" className="btn-white">🤖 Google Play</a>
+            <a href="https://apps.apple.com/mx/app/fitlatam/id6762097150" target="_blank" rel="noopener noreferrer" className="btn-white">📱 App Store</a>
+            <a href="#" className="btn-white" style={{ opacity: 0.6, cursor: "not-allowed" }} onClick={(e) => { e.preventDefault(); alert("Próximamente disponible en Google Play"); }}>🤖 Google Play (Pronto)</a>
             <a href="#plans" className="btn-ghost">{t('Ver planes →', 'See plans →')}</a>
           </div>
         </div>
@@ -638,8 +638,8 @@ export default function FitLatamLanding() {
             </div>
             <div className="footer-col">
               <h4>{t('Disponible en', 'Available on')}</h4>
-              <a href="#">📱 App Store (iOS)</a>
-              <a href="#">🤖 Google Play</a>
+              <a href="https://apps.apple.com/mx/app/fitlatam/id6762097150" target="_blank" rel="noopener noreferrer">📱 App Store (iOS)</a>
+              <a href="#" style={{ opacity: 0.6 }}>🤖 Google Play (Pronto)</a>
               <a href="#">🌐 fitlatam.lat</a>
             </div>
           </div>

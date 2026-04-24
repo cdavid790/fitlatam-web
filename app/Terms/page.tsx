@@ -77,7 +77,7 @@ export default function Terms() {
             <li>Eres responsable de mantener la confidencialidad de tu cuenta y contraseña.</li>
             <li>Debes proporcionar información veraz y actualizada al registrarte.</li>
             <li>Una cuenta de prueba gratuita por número de teléfono. El abuso del período de prueba puede resultar en la suspensión de la cuenta.</li>
-            <li>Puedes eliminar tu cuenta en cualquier momento desde Perfil → Eliminar mi cuenta, o enviando una solicitud a <a href="mailto:privacidad@fitlatam.app">privacidad@fitlatam.app</a>.</li>
+            <li>Puedes eliminar tu cuenta en cualquier momento desde Perfil → Eliminar mi cuenta, o enviando una solicitud a <a href="mailto:privacidad@fitlatam.lat">privacidad@fitlatam.lat</a>.</li>
           </ul>
         </div>
 
@@ -103,7 +103,7 @@ export default function Terms() {
 
         <div className="section">
           <h2>11. Contacto</h2>
-          <p>Para cualquier consulta sobre estos Términos escríbenos a <a href="mailto:legal@fitlatam.app">legal@fitlatam.app</a></p>
+          <p>Para cualquier consulta sobre estos Términos escríbenos a <a href="mailto:legal@fitlatam.lat">legal@fitlatam.lat</a></p>
         </div>
       </div>
     </>
